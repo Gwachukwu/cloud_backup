@@ -2,7 +2,7 @@ import { createConnection } from "typeorm";
 import { Admin } from "../entities/admin";
 import { File } from "../entities/file";
 import { User } from "../entities/user";
-const dbConfig = require("./ormconfig.ts");
+const dbConfig = require("./ormconfig");
 
 module.exports = async () => {
   try {

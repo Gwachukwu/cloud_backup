@@ -20,6 +20,9 @@ export class File extends BaseEntity {
 
   @Column()
   cloud_id: string;
+  
+  @Column()
+  type: string;
 
   @Column({
     default: "general",
